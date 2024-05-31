@@ -24,13 +24,13 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/ti-net-project/VCSClient-iOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gyb1314' => 'gyb_1314@126.com' }
-  s.source           = { :git => 'https://github.com/ti-net-project/VCSClient-iOS', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ti-net-project/VCSClient-iOS.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
   s.resource      = 'VCSClient.bundle'
   s.vendored_frameworks  = "VCSClientLib.framework",  "VCSClientKit.framework"
   s.pod_target_xcconfig = {'VALID_ARCHS'=>'armv7 x86_64 arm64 armv7s'}
-  s.dependency 'AgoraRtcEngine_iOS', '4.3.0', :subspecs => ['RtcBasic','ReplayKit']
+  s.dependency 'AgoraRtcEngine_iOS', '4.3.0'
   s.dependency 'AgoraRtm_iOS', '2.1.10'
 end
