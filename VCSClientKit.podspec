@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VCSClientKit'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'VCSClientKit 集成UI的视频客服SDK'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.resource      = 'VCSClient.bundle'
-  s.vendored_frameworks  = "VCSClientLib.framework",  "VCSClientKit.framework"
+  s.vendored_frameworks  = "VCSClientLib.xcframework",  "VCSClientKit.xcframework"
   s.pod_target_xcconfig = {'VALID_ARCHS'=>'armv7 x86_64 arm64 armv7s'}
   s.dependency 'AgoraRtcEngine_iOS', '4.3.0'
   s.dependency 'AgoraRtm_iOS', '2.1.10'
