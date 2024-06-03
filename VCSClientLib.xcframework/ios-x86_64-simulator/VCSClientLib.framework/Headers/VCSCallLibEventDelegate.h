@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <VCSClientLib/VCSMessage.h>
-#import <VCSClientLib/HDKeyCenter.h>
+#import <VCSClientLib/VCSKeyCenter.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -30,26 +30,26 @@ NS_ASSUME_NONNULL_BEGIN
  *  接收到访客主动发起的视频请求
  *  @param keyCenter   创建视频请求必要的参数
  */
-- (void)onCallReceivedVisitorParameter:(HDKeyCenter *)keyCenter withMessage:(VCSMessage*)message;
+- (void)onCallReceivedVisitorParameter:(VCSKeyCenter *)keyCenter withMessage:(VCSMessage*)message;
 
 /*!
  *  \~chinese
  *  接收到座席主动发起的视频请求
  *  @param keyCenter   创建视频请求必要的参数
  */
-- (void)onCallReceivedAgentParameter:(HDKeyCenter *)keyCenter withMessage:(VCSMessage*)message;
+- (void)onCallReceivedAgentParameter:(VCSKeyCenter *)keyCenter withMessage:(VCSMessage*)message;
 
 /*!
  *  \~chinese
  *  座席回呼 主动发起的视频请求 确认事件
  */
-- (void)onCallReceivedAgentSureParameter:(HDKeyCenter *)keyCenter withMessage:(VCSMessage*)message;
+- (void)onCallReceivedAgentSureParameter:(VCSKeyCenter *)keyCenter withMessage:(VCSMessage*)message;
 
 /*!
  *  \~chinese
  *  座席回呼  取消回呼
  */
-- (void)onCallReceivedAgentCancelCallBackParameter:(HDKeyCenter *)keyCenter withMessage:(VCSMessage*)message;
+- (void)onCallReceivedAgentCancelCallBackParameter:(VCSKeyCenter *)keyCenter withMessage:(VCSMessage*)message;
 
 /*!
  *  \~chinese

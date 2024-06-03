@@ -45,7 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 // vcs 相关使用参数
 //新增字段 有需要收到通知参数的可以通过这个字段传递
-@property (strong, nonatomic) HDKeyCenter * keyCenter;
+@property (strong, nonatomic) VCSKeyCenter * keyCenter;
 //访客信息
 @property (nonatomic, strong) VCSVisitorInfo *visitorInfo;
 //访客id 如果不传默认sdk会生成一个

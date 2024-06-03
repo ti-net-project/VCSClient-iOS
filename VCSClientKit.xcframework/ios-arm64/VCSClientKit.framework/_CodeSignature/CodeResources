@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/HDCallInputModel.h</key>
 		<data>
-		pdpCKTTdxV3ByTvPJT38bUFDiBg=
+		VxKbNbGneY9xLhgTjDakPoCDo60=
 		</data>
 		<key>Headers/VCSClientCallKit.h</key>
 		<data>
@@ -22,11 +22,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rSz2uuWAEa4MWCIYjXD/j+wSMWs=
+		Hv35iwQruTy8ZsSBYB1udPUrAmc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		Mm22Szq6Br2p/SPE4wSM0R+RuL8=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		wF55gisK5aDzRT6Q4P94M8wiaPw=
 		</data>
 		<key>README.md</key>
 		<data>
@@ -49,21 +53,13 @@
 	<dict>
 		<key>Headers/HDCallInputModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pdpCKTTdxV3ByTvPJT38bUFDiBg=
-			</data>
 			<key>hash2</key>
 			<data>
-			6wbWgCAYyuyukoGVHcDIBBhhtzax5ob0dn025UMq4fY=
+			TqazNIGbOyLUYMpJei2Tag89z1p6cOcncABe5K1xvYU=
 			</data>
 		</dict>
 		<key>Headers/VCSClientCallKit.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Fz4Bx3z+7u6hH4EDTx9tydK++3I=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZdcaOx5JHBC/sZM7DEFb71th2durF0bHM1ocHshOMGE=
@@ -71,10 +67,6 @@
 		</dict>
 		<key>Headers/VCSClientKit.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6BIjiZumehEIdsePgMvxIuDx2AM=
-			</data>
 			<key>hash2</key>
 			<data>
 			VpRsh4fwcI5Sv6sMxPgl5ELjQfqIet3umTYfg90sYc0=
@@ -82,10 +74,6 @@
 		</dict>
 		<key>Headers/VCSClientKitConfig.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NgLSwLzrLg8Jm/6x0KSAgwpsfD8=
-			</data>
 			<key>hash2</key>
 			<data>
 			9YIeoiZkYHyvusrMu4K4kgMGtAre6pvE4AwKOmXrPbo=
@@ -93,21 +81,20 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Mm22Szq6Br2p/SPE4wSM0R+RuL8=
-			</data>
 			<key>hash2</key>
 			<data>
 			/1FeYUrqT7Oty7hCGcHmAEr+V3yRsQ4X7Spe2I9qZF4=
 			</data>
 		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a6BqjzBYgmX2A9Gg6OUMVuEOm4+nKXl2c3DtO/en27g=
+			</data>
+		</dict>
 		<key>README.md</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			q7kd24IzgmhqtQ6aZyLie0ZGIdk=
-			</data>
 			<key>hash2</key>
 			<data>
 			LkeSVe7QNdGbPjPoHdBy0tcg8JvYNBd9++bhf8Y3VV0=
@@ -115,10 +102,6 @@
 		</dict>
 		<key>bg_rl_satisfaction.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vk1eDSkUtXFm4hU8zh9hT/FS7Dk=
-			</data>
 			<key>hash2</key>
 			<data>
 			aOvW0/sbSpkj7mgh1CE7j+lkZshkq7Pa5F7ogMeRNXU=
@@ -126,10 +109,6 @@
 		</dict>
 		<key>icon_star.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2bWIyjZJN1PwP8kUkvR2v+SBGyo=
-			</data>
 			<key>hash2</key>
 			<data>
 			kay39eTRSaTSqKNKqgVIS6vs911Nrt1nd4AHtQK7ntY=
@@ -137,10 +116,6 @@
 		</dict>
 		<key>icon_star_select.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Njm139hgdPTtGtn6Z5+kqOX1Lw8=
-			</data>
 			<key>hash2</key>
 			<data>
 			hI5I0vwAeAqWwJMNpV5ygisqr6CNomcwZnTrurMz0Uc=
