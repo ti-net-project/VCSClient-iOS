@@ -34,6 +34,6 @@ TODO: Add long description of the pod here.
   # s.dependency 'AgoraRtcEngine_iOS', '4.3.0'
   s.dependency 'AgoraRtcEngine_iOS/RtcBasic', '4.3.0'
   s.dependency 'AgoraRtcEngine_iOS/ReplayKit', '4.3.0'
-  s.dependency 'AgoraRtm_iOS', '2.2.0'
+  s.dependency 'AgoraRtm', '2.2.0'
   s.dependency 'FTMobileSDK', '1.5.0'
 end
