@@ -4,21 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/HDCallInputModel.h</key>
+		<key>Headers/VCSCallModel.h</key>
 		<data>
-		VxKbNbGneY9xLhgTjDakPoCDo60=
+		zrlry/B3eSezn3lvGrwkQBFGYSA=
 		</data>
 		<key>Headers/VCSClientCallKit.h</key>
 		<data>
-		Fz4Bx3z+7u6hH4EDTx9tydK++3I=
+		Q/fecHPuRXDoetve3WTJ4kQOlUU=
 		</data>
 		<key>Headers/VCSClientKit.h</key>
 		<data>
-		6BIjiZumehEIdsePgMvxIuDx2AM=
+		dKdbTgjAeHfYz6VbQCzpJANAoKg=
 		</data>
-		<key>Headers/VCSClientKitConfig.h</key>
+		<key>Headers/VCSKitInitOption.h</key>
 		<data>
-		NgLSwLzrLg8Jm/6x0KSAgwpsfD8=
+		WRzSgBdEmKOmOBiYWvPGhJs5yCI=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -51,32 +51,32 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/HDCallInputModel.h</key>
+		<key>Headers/VCSCallModel.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TqazNIGbOyLUYMpJei2Tag89z1p6cOcncABe5K1xvYU=
+			tM3pfjQlk4XylmmfhT5boXZM9ShbR/Kz9nPVGBmNz5g=
 			</data>
 		</dict>
 		<key>Headers/VCSClientCallKit.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZdcaOx5JHBC/sZM7DEFb71th2durF0bHM1ocHshOMGE=
+			vOJgyWNNS6KDUOWQXTBctm1jukWONzKbW6O/SnUf2D0=
 			</data>
 		</dict>
 		<key>Headers/VCSClientKit.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VpRsh4fwcI5Sv6sMxPgl5ELjQfqIet3umTYfg90sYc0=
+			d8JRdM/C/LSOsJEuRbf4ckbHzVh0u6CJVDARiLuMFOE=
 			</data>
 		</dict>
-		<key>Headers/VCSClientKitConfig.h</key>
+		<key>Headers/VCSKitInitOption.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9YIeoiZkYHyvusrMu4K4kgMGtAre6pvE4AwKOmXrPbo=
+			Ce3PFQHPDYQj1jZ3cYkxPrWU4MAYQIR9EdjPNa15cPg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

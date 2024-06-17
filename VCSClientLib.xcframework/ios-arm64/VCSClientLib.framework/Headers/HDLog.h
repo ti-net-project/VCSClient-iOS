@@ -1,9 +1,8 @@
 //
-//  KKLog.h
-//  KKLog
+//  HDLog.h
+//  VCSClientLib
 //
-//  Created by JackSun on 15/4/9.
-//  Copyright (c) 2015年 Coneboy_K. All rights reserved.
+//  Created by houli on 2024/6/14.
 //
 
 #import <Foundation/Foundation.h>

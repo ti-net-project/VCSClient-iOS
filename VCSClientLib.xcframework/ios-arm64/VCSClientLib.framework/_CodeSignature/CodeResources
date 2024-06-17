@@ -4,61 +4,57 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/HDError.h</key>
-		<data>
-		bBi0P4o/S66wFLOpy5In2Oon6ZQ=
-		</data>
-		<key>Headers/HDErrorCode.h</key>
-		<data>
-		SGz5XV9bKoEBLZGCqZnqHOhWQYw=
-		</data>
-		<key>Headers/HDGrayModel.h</key>
-		<data>
-		srQnQcsDfgD2a4CK5N/wIX3xuWk=
-		</data>
 		<key>Headers/HDLog.h</key>
 		<data>
-		IckffZESlnEQ86KboLpoQwLGXjQ=
+		q6TlHxC3bnRhevDQUpsqp4pwTcY=
 		</data>
 		<key>Headers/NSMutableDictionary+HDKit.h</key>
 		<data>
-		3JA2oep8U1mZuv64+pUiKjNteBo=
+		BA76Zl7Yjp8dcAnuRc77vBH2PgU=
 		</data>
 		<key>Headers/NSObject+HDYYModel.h</key>
 		<data>
-		lAZwKFl4FIEHREZKvRL7rBbCuD4=
+		KtoZgjIYjZXRzHMhmevnyv9nYf4=
 		</data>
 		<key>Headers/VCSCallLib.h</key>
 		<data>
-		iu+eQJ83MixQNOv+ildDYpTLH8k=
+		rEzcYdjjaL9diQ5RO+IdKdTP8Fk=
 		</data>
 		<key>Headers/VCSCallLibEventDelegate.h</key>
 		<data>
-		rToUazbrUZ9BVVqbBDuOUS7zzfg=
+		IEfM6bIKrE/v2vcEUln5kPFFRBI=
 		</data>
 		<key>Headers/VCSClient.h</key>
 		<data>
-		44GkEJH9H1J/zKvzNMOkUPlGtp8=
+		yzBFqxlGHXt1OSDFhGbXp6dWV4I=
 		</data>
 		<key>Headers/VCSClientDelegate.h</key>
 		<data>
-		LRNRT0ysDN9iCrP0KLKIZbz5gNE=
+		OapplH9TTKC5yyQDbhfws5EjuvE=
 		</data>
 		<key>Headers/VCSClientLib.h</key>
 		<data>
-		uUPjb6xNS2fkGnLXP6F+kaaRxmQ=
+		OOD5nIpzOzHVsEYvjuAjNQTKjqc=
+		</data>
+		<key>Headers/VCSError.h</key>
+		<data>
+		Bq+fUX4MeazXdVrDoTzqs6Yvc48=
+		</data>
+		<key>Headers/VCSErrorCode.h</key>
+		<data>
+		aqeLX/zgE7pa7tPXyeDTdMMzEbk=
 		</data>
 		<key>Headers/VCSKeyCenter.h</key>
 		<data>
-		Cl4WLn8oWqJsyD2Z5i/0TWY++YY=
+		mS48IGZ4Q7T6BNaR8OdqZ45anWg=
+		</data>
+		<key>Headers/VCSLibInitOption.h</key>
+		<data>
+		kvuWivHocOYoWFgOb/Yqn5KMlM0=
 		</data>
 		<key>Headers/VCSMessage.h</key>
 		<data>
-		3DdI16ROK9EbtrprnnVfsh8Sw08=
-		</data>
-		<key>Headers/VCSOptions.h</key>
-		<data>
-		yVziIuIQHCUqaWXwYQkqkXgIO0Y=
+		06ZeYlip85bYwQu94agVqXrgBfs=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -75,102 +71,95 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/HDError.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QSuDTXqAJJh1RiTOByg/uGz6n6FCa0hTcqUNIfWCr6g=
-			</data>
-		</dict>
-		<key>Headers/HDErrorCode.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			X1IZ7qGWjOz5tuiMiPnHGs9v/v8psDhrDs825R90sKo=
-			</data>
-		</dict>
-		<key>Headers/HDGrayModel.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TZxocxKe56yJz1i+tIGRHQdfm/j2HCk89gVfxxguiWE=
-			</data>
-		</dict>
 		<key>Headers/HDLog.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			45D2jmxuUcICvsH3bPQzv2PU7MMvRb9OkdC6tnF3lc8=
+			6zqYnVqnmdvl+5TOAzZtVxFD7CN2G8Wwc1sLwooXZ4o=
 			</data>
 		</dict>
 		<key>Headers/NSMutableDictionary+HDKit.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7GAiweejTuRORQ67Rv3jMyqfZOsqeBrnZ1go2tQk+x4=
+			4WEXTLO3+S8QLlHKW0++P8NMaglvqWxlnvAPx37wfqI=
 			</data>
 		</dict>
 		<key>Headers/NSObject+HDYYModel.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uhLGn6Ek4x3Jw60FnFowkcQOWjOwVHRxwXipj6GZ5b8=
+			aE35p9e9RGxmGEJjdGg43zcD0HvuRLg+IBAcPWXbrf0=
 			</data>
 		</dict>
 		<key>Headers/VCSCallLib.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/epmy2GJI+CLgKhNYCNW5E468Jv/CGWVVCGhXWciAbA=
+			OJ3BYnuwDTO+7IURHHQYz29UwOjDQiDxU8zaaDNQkXc=
 			</data>
 		</dict>
 		<key>Headers/VCSCallLibEventDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WeBFGstEJcSHajB0pPh4DPGZK67wDJDUuwKj5PUTzf8=
+			ZNCtM/0LziNENY72hGdbh0ZZxngZCYxfhiQDpWfpPsE=
 			</data>
 		</dict>
 		<key>Headers/VCSClient.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9SYuAqdkFJjV7sGR4HZIa+NzbkUUaRg5RkfYwTI8Jxc=
+			OJm2/8X6zQfygfYQKeN5pHG8WRl/WJlEB62hjXr+m0E=
 			</data>
 		</dict>
 		<key>Headers/VCSClientDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K5J/7J4VasGEoOAt/ShJ2CMJyQguPFc7wcCwE3U5jwg=
+			39/uos4PB8InfNfyq5u2pmcZpJiT/Qdbs2rqj0DWRuA=
 			</data>
 		</dict>
 		<key>Headers/VCSClientLib.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iX62c+8Oqk5iO/qqqIoLdhxI/FlqJsbcqgpzCv2nBxs=
+			V8JFsExA55tkXTk9Ck4QqncAWUGGuhybZ+lNEizymdY=
+			</data>
+		</dict>
+		<key>Headers/VCSError.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			p0tHB62dAG0Bgz/hf9A0y+auI0Fd956P8tpmbKldZnA=
+			</data>
+		</dict>
+		<key>Headers/VCSErrorCode.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GmP9tGlMlRY/Zen1lsUmlpVi4Nwkzw6QwhJ+UFfaH7w=
 			</data>
 		</dict>
 		<key>Headers/VCSKeyCenter.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xbk9XCeJnrVSdemqab81Tbpl3h2id2S1w5vi4D3k3os=
+			t+szZ4sDhzpmk5CpHI4B1CTi1aFtFqFHTgFh3AWM8nQ=
+			</data>
+		</dict>
+		<key>Headers/VCSLibInitOption.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BoNeawgVeUq7ATtlF6jKIh3j8aoA+T2ZD10FE0gcu64=
 			</data>
 		</dict>
 		<key>Headers/VCSMessage.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2srm4e/8ZezhC62eALtymQZHN1ZGH1nX2pQvNDpJtlk=
-			</data>
-		</dict>
-		<key>Headers/VCSOptions.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JFPaBh+DPXVTnj89fod0VpWI4xW9ZTlPd/6molpsJj4=
+			e5u+UdLAm2Hlsk7SyNsDZ5gDL4T4fBcTY98P4rwxGWQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

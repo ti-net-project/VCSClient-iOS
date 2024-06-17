@@ -1,9 +1,8 @@
 //
-//  NSMutableDictionary+WSUKit.h
-//  WSUserSDK
+//  NSMutableDictionary+HDKit.h
+//  VCSClientLib
 //
-//  Created by houli on 2017/6/17.
-//  Copyright © 2017年 leohou. All rights reserved.
+//  Created by houli on 2024/6/14.
 //
 
 #import <Foundation/Foundation.h>

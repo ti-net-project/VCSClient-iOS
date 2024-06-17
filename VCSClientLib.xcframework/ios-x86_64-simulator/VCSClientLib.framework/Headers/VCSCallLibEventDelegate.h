@@ -2,7 +2,7 @@
 //  VCSCallLibEventDelegate.h
 //  VCSClientLib
 //
-//  Created by easemob on 2024/5/13.
+//  Created by houli on 2024/5/13.
 //
 
 #import <Foundation/Foundation.h>
@@ -177,7 +177,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param errorCode         错误码
  * @param errorMessage   错误描述
  */
-- (void)onError:(HDErrorCode)errorCode errorMessage:(nonnull NSString *)errorMessage;
+- (void)onError:(VCSErrorCode)errorCode errorMessage:(nonnull NSString *)errorMessage;
 @end
 
 NS_ASSUME_NONNULL_END

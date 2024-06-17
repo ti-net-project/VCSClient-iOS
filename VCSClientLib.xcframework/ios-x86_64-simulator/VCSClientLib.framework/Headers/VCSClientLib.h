@@ -2,7 +2,7 @@
 //  VCSClientLib.h
 //  VCSClientLib
 //
-//  Created by easemob on 2024/4/23.
+//  Created by houli on 2024/4/23.
 //
 
 #import <Foundation/Foundation.h>
@@ -17,7 +17,7 @@ FOUNDATION_EXPORT const unsigned char VCSClientLibVersionString[];
 
 #import <VCSClientLib/VCSClient.h>
 #import <VCSClientLib/HDLog.h>
-#import <VCSClientLib/VCSOptions.h>
+#import <VCSClientLib/VCSLibInitOption.h>
 #import <VCSClientLib/VCSCallLib.h>
 #import <VCSClientLib/VCSMessage.h>
 #import <VCSClientLib/NSMutableDictionary+HDKit.h>

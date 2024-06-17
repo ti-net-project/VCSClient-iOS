@@ -2,7 +2,7 @@
 //  VCSMessage.h
 //  VCSClientLib
 //
-//  Created by easemob on 2024/4/23.
+//  Created by houli on 2024/4/23.
 //
 
 #import <Foundation/Foundation.h>
@@ -18,22 +18,24 @@ typedef NS_ENUM (NSInteger, VCSMessageEventType) {
 };
 NS_ASSUME_NONNULL_BEGIN
 @interface VCSVisitorInfo : NSObject
-@property (nonatomic, copy) NSString* userName;
-@property (nonatomic, copy) NSString* qq;
-@property (nonatomic, copy) NSString* name;
-@property (nonatomic, copy) NSString* companyName;
-@property (nonatomic, copy) NSString* nickName;
-@property (nonatomic, copy) NSString* phone;
-@property (nonatomic, copy) NSString* desc;
+@property (nonatomic, copy) NSString* name; //真实名字 对应trueName
+@property (nonatomic, copy) NSString* nickName;//昵称 不能为空
+@property (nonatomic, copy) NSString* qq;//qq
+@property (nonatomic, copy) NSString* companyName;//企业名称
+@property (nonatomic, copy) NSString* phone;//电话
+@property (nonatomic, copy) NSString* desc;//描述
 @property (nonatomic, copy) NSString* email;
+//自定义字段传参集成用户信息 userDefineColumn: '{"WQQ":"帅哥","QAZ":"LLLLLLLTTTTTTTT"}',
 @property (nonatomic, copy) NSString* userDefineColumn;
-@property (nonatomic, copy) NSMutableDictionary* customDic;
+@property (nonatomic, copy) NSMutableDictionary* customDic;//
 -(NSMutableDictionary *)content;
 @end
 @interface VCSMessage : NSObject
 
 /// 消息内容
 @property (nonatomic, copy) NSString *messageId;
+/// sessionid
+@property (nonatomic, copy) NSString *rtcSessionId;
 /// form
 @property (nonatomic, copy) NSString *from;
 /// to

@@ -2,7 +2,7 @@
 //  VCSClientDelegate.h
 //  VCSClientLib
 //
-//  Created by easemob on 2024/5/10.
+//  Created by houli on 2024/5/10.
 //
 
 #import <Foundation/Foundation.h>

@@ -2,12 +2,12 @@
 //  VCSClient.h
 //  VCSClientLib
 //
-//  Created by easemob on 2024/4/24.
+//  Created by houli on 2024/4/24.
 //
 
 #import <Foundation/Foundation.h>
-#import <VCSClientLib/HDError.h>
-#import <VCSClientLib/VCSOptions.h>
+#import <VCSClientLib/VCSError.h>
+#import <VCSClientLib/VCSLibInitOption.h>
 #import <VCSClientLib/VCSClientDelegate.h>
 #import <VCSClientLib/VCSMessage.h>
 
@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  @param aOptions  SDK配置项
  *  @result 错误信息
  */
-- (HDError *)initializeSDKWithOptions:(VCSOptions *)aOptions;
+- (VCSError *)initializeSDKWithOptions:(VCSLibInitOption *)aOptions;
 
 + (NSString *)sdkVersion;
 + (NSString *)rtmSdkVersion;
