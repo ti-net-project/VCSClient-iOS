@@ -29,11 +29,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '11.0'
 
   s.resource      = 'VCSClient.bundle'
-  s.vendored_frameworks  = "VCSClientLib.xcframework",  "VCSClientKit.xcframework"
+  s.vendored_frameworks  = "VCSClientLib.xcframework","VCSClientKit.xcframework","AgoraRtmKit.xcframework"
   s.pod_target_xcconfig = {'VALID_ARCHS'=>'armv7 x86_64 arm64 armv7s'}
   # s.dependency 'AgoraRtcEngine_iOS', '4.3.0'
   s.dependency 'AgoraRtcEngine_iOS/RtcBasic', '4.3.0'
   s.dependency 'AgoraRtcEngine_iOS/ReplayKit', '4.3.0'
-  s.dependency 'AgoraRtm', '2.2.0'
+  #s.dependency 'AgoraRtm', '2.2.0'
   s.dependency 'FTMobileSDK', '1.5.0'
 end
