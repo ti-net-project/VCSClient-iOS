@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint TOSClientKit.podspec' to ensure this is a
+# Be sure to run `pod lib lint VCSClientKit.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VCSClientKit'
-  s.version          = '0.0.6'
+  s.version          = '0.0.7'
   s.summary          = 'VCSClientKit 集成UI的视频客服SDK'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/ti-net-project/VCSClient-iOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gyb1314' => 'gyb_1314@126.com' }
-  s.source           = { :git => 'https://github.com/ti-net-project/VCSClient-iOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ti-net-project/VCSClient-iOS', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
 
