@@ -10,17 +10,45 @@
 #import <VCSClientKit/VCSKitInitOption.h>
 NS_ASSUME_NONNULL_BEGIN
 
-@interface VCSClientCallKit : NSObject
 
-+ (instancetype)shareCallKit;
+
+/*!
+ * Kit层代理协议
+ */
+@protocol VCSClientKitDelegate <NSObject>
+
+@optional
+
+/// \~chinese 需要Toast的文案
+///
+/// \~english Need Toast copywriting
+/// - Parameter toastText: 文案字符串
+- (void)VCSClientKitToastText:(NSString *)toastText;
+
+@end
+
+/*!
+ * SDK单例，
+ * 用于初始化SDK、
+ * 登录/登出/发起视频、
+ * 获取当前SDK的版本号等操作。
+ */
+@interface VCSClientKit : NSObject
+
+/// kit层代理协议
+@property (nonatomic, weak) id <VCSClientKitDelegate>                delegate;
+
+/// 获取SDK实例
++ (instancetype)shareKit;
 
 /*!
  *  初始化sdk kit
  */
 - (void)initWithOption:(VCSKitInitOption *)option;
+
 /**
  *  登录
- * 用户 App 的 userID（为空的情况下，系统默认为 UUID ，不可包含中文或特殊符号，建议使用用户系统 ID 方便 APP 拓展功能）
+ * 用户 App 的 userID（为空的情况下，会进入errorBlock回调 ，不可包含中文或特殊符号，建议使用用户系统 ID 方便 APP 拓展功能）
  */
 - (void)loginWithVisitorId:(NSString *_Nonnull)visitorId Success:(void (^)(void))successBlock withError:(void (^)(VCSError *error))errorBlock;
 
@@ -35,7 +63,23 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)videoCall:(VCSCallModel *_Nonnull)model Success:(void (^)(void))successBlock withError:(void (^)(VCSError *error))errorBlock;
 
 /**
- * sdk 版本号
+ * 接收官方 App 解析出的预约链接参数。通过时返回 nil，并在下一次发起通话时原样放进访客邀请。
+ */
++ (nullable NSString *)acceptSubscribeLink:(nullable NSDictionary<NSString *, NSString *> *)linkParams;
+
+/**
+ * 登录或发起通话失败时丢掉已接收的预约链接参数。
+ */
++ (void)clearSubscribeLink;
+
+/// 开启画中画(设备系统为iOS 15+以上)
+- (void)startPictureInPicture;
+
+/// 停止画中画
+- (void)stopPictureInPicture;
+/**
+ * SDK版本号
+ * 当前SDK的version
  */
 + (NSString *)getVersion;
 

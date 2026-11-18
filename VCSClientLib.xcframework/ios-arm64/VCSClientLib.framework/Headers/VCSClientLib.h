@@ -17,8 +17,10 @@ FOUNDATION_EXPORT const unsigned char VCSClientLibVersionString[];
 
 #import <VCSClientLib/VCSClient.h>
 #import <VCSClientLib/HDLog.h>
-#import <VCSClientLib/VCSLibInitOption.h>
+#import <VCSClientLib/VCSInitOption.h>
 #import <VCSClientLib/VCSCallLib.h>
+#import <VCSClientLib/VCSRtmLoginGate.h>
 #import <VCSClientLib/VCSMessage.h>
+#import <VCSClientLib/VCSCommonUtils.h>
 #import <VCSClientLib/NSMutableDictionary+HDKit.h>
 #import <VCSClientLib/NSObject+HDYYModel.h>
